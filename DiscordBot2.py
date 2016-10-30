@@ -2,6 +2,7 @@ import discord
 import asyncio
 import random
 import requests
+import logging
 
 if not discord.opus.is_loaded():
     discord.opus.load_opus('opus')
